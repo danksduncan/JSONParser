@@ -10,3 +10,15 @@ C:\Users\conta\OneDrive\Desktop\Code Projects\JSONParser\obj\Debug\JSONParser.cs
 C:\Users\conta\OneDrive\Desktop\Code Projects\JSONParser\obj\Debug\JSONParser.csproj.CopyComplete
 C:\Users\conta\OneDrive\Desktop\Code Projects\JSONParser\obj\Debug\JSONParser.exe
 C:\Users\conta\OneDrive\Desktop\Code Projects\JSONParser\obj\Debug\JSONParser.pdb
+C:\Users\conta\OneDrive\Desktop\JSONParser\bin\Debug\JSONParser.exe.config
+C:\Users\conta\OneDrive\Desktop\JSONParser\bin\Debug\JSONParser.exe
+C:\Users\conta\OneDrive\Desktop\JSONParser\bin\Debug\JSONParser.pdb
+C:\Users\conta\OneDrive\Desktop\JSONParser\bin\Debug\Newtonsoft.Json.dll
+C:\Users\conta\OneDrive\Desktop\JSONParser\bin\Debug\Newtonsoft.Json.xml
+C:\Users\conta\OneDrive\Desktop\JSONParser\obj\Debug\JSONParser.csprojAssemblyReference.cache
+C:\Users\conta\OneDrive\Desktop\JSONParser\obj\Debug\JSONParser.StudentInfoForm.resources
+C:\Users\conta\OneDrive\Desktop\JSONParser\obj\Debug\JSONParser.Properties.Resources.resources
+C:\Users\conta\OneDrive\Desktop\JSONParser\obj\Debug\JSONParser.csproj.GenerateResource.cache
+C:\Users\conta\OneDrive\Desktop\JSONParser\obj\Debug\JSONParser.csproj.CopyComplete
+C:\Users\conta\OneDrive\Desktop\JSONParser\obj\Debug\JSONParser.exe
+C:\Users\conta\OneDrive\Desktop\JSONParser\obj\Debug\JSONParser.pdb

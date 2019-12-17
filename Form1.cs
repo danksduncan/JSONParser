@@ -26,13 +26,20 @@ namespace JSONParser
             {
                 Id = 1,
                 Name = tbStudentName.Text,
-                Degree = tbDegree.Text,
+                Degree = cbDegree.Text,
                 Hobbies = new List<string>(array)
             };
             string strResultJson = JsonConvert.SerializeObject(student);
             File.WriteAllText(@"student.json", strResultJson);
             Console.WriteLine("Student Information Stored!");
             MessageBox.Show("File Created!");
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            tbStudentName.Text = "";
+            cbDegree.Text = "";
+            tbHobbies.Text = "";
         }
     }
 }
