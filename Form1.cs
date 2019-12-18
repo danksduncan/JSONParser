@@ -61,7 +61,7 @@ namespace JSONParser
             Console.WriteLine("Deserialized!");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnDownload_click(object sender, EventArgs e)
         {
             var results = richTextBox1.Text;
             if (richTextBox1.Text == "")
@@ -71,21 +71,19 @@ namespace JSONParser
                 MessageBoxIcon.Exclamation,
                 MessageBoxDefaultButton.Button1);
             }
-
-            string folderPath = "";
-            FolderBrowserDialog folderBrowserDialog1 = new FolderBrowserDialog();
-            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+            else
             {
-                folderPath = folderBrowserDialog1.SelectedPath;
-
-                System.IO.FileInfo file = new System.IO.FileInfo(folderPath);
-                file.Directory.Create(); // If the directory already exists, this method does nothing.
-
-                System.IO.File.WriteAllText(file.FullName, results);
-                //System.IO.File.WriteAllText(folderPath, results);
+                SaveFileDialog sfd = new SaveFileDialog();
+                sfd.Filter = "|*.json";
+                sfd.FileName = "student";
+                if (sfd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                {
+                    string path = sfd.FileName;
+                    BinaryWriter bw = new BinaryWriter(File.Create(path));
+                    bw.Write(System.Text.Encoding.UTF8.GetBytes(results));
+                    bw.Dispose();
+                }
             }
-            
-            //File.WriteAllText(@"student.json", results);
         }
     }
 }

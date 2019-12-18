@@ -41,7 +41,7 @@
             this.btnParse = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnDownload = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -83,7 +83,7 @@
             // tbStudentName
             // 
             this.tbStudentName.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.tbStudentName.Location = new System.Drawing.Point(224, 21);
+            this.tbStudentName.Location = new System.Drawing.Point(223, 21);
             this.tbStudentName.Name = "tbStudentName";
             this.tbStudentName.Size = new System.Drawing.Size(344, 26);
             this.tbStudentName.TabIndex = 3;
@@ -92,7 +92,7 @@
             // 
             this.tbHobbies.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbHobbies.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.tbHobbies.Location = new System.Drawing.Point(224, 91);
+            this.tbHobbies.Location = new System.Drawing.Point(223, 91);
             this.tbHobbies.Multiline = true;
             this.tbHobbies.Name = "tbHobbies";
             this.tbHobbies.Size = new System.Drawing.Size(388, 104);
@@ -118,7 +118,7 @@
             "Associates",
             "Bachelors ",
             "Masters"});
-            this.cbDegree.Location = new System.Drawing.Point(224, 55);
+            this.cbDegree.Location = new System.Drawing.Point(223, 55);
             this.cbDegree.Name = "cbDegree";
             this.cbDegree.Size = new System.Drawing.Size(260, 28);
             this.cbDegree.TabIndex = 7;
@@ -141,7 +141,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.823529F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 91.17647F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 394F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 19F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Controls.Add(this.tbStudentName, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.cbDegree, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.lblDegree, 1, 2);
@@ -173,7 +173,7 @@
             this.tableLayoutPanel2.Controls.Add(this.btnParse, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnRawJson, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(224, 201);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(223, 201);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -194,7 +194,7 @@
             // richTextBox1
             // 
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox1.Location = new System.Drawing.Point(224, 257);
+            this.richTextBox1.Location = new System.Drawing.Point(223, 257);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(388, 103);
             this.richTextBox1.TabIndex = 12;
@@ -205,25 +205,25 @@
             this.tableLayoutPanel3.ColumnCount = 2;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.71795F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.28205F));
-            this.tableLayoutPanel3.Controls.Add(this.button2, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.btnDownload, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnClear, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(224, 366);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(223, 366);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(388, 46);
             this.tableLayoutPanel3.TabIndex = 14;
             // 
-            // button2
+            // btnDownload
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(192, 7);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(193, 32);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Dowload Results";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnDownload.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDownload.Location = new System.Drawing.Point(192, 7);
+            this.btnDownload.Name = "btnDownload";
+            this.btnDownload.Size = new System.Drawing.Size(193, 32);
+            this.btnDownload.TabIndex = 13;
+            this.btnDownload.Text = "Dowload Results";
+            this.btnDownload.UseVisualStyleBackColor = true;
+            this.btnDownload.Click += new System.EventHandler(this.btnDownload_click);
             // 
             // StudentInfoForm
             // 
@@ -258,7 +258,7 @@
         private System.Windows.Forms.Button btnParse;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnDownload;
     }
 }
 
